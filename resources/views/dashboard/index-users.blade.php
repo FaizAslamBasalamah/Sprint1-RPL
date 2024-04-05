@@ -108,54 +108,54 @@
   <div class="row g-5 ">
     <div class="col-md-8">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-auto position-relative text-light" style="background-color: #395144;">
-            <div class="col p-4 d-flex flex-column position-static">
-                <h3 class="mb-0">Riwayat Donasi</h3>
-                <ul class="list-unstyled">
-            <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top text-light" href="#">
-                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="col-lg-8">
-                  <h6 class="mb-0">Example blog post title</h6>
-                  <small class="text-light">January 15, 2024</small>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top text-light" href="#">
-                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="col-lg-8">
-                  <h6 class="mb-0">This is another blog post title</h6>
-                  <small class="text-light">January 14, 2024</small>
-                </div>
-              </a>
-            </li>
-            <ul class="list-unstyled">
-            <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top text-light" href="#">
-                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="col-lg-8">
-                  <h6 class="mb-0">Example blog post title</h6>
-                  <small class="text-light">January 15, 2024</small>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top text-light" href="#">
-                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="col-lg-8">
-                  <h6 class="mb-0">This is another blog post title</h6>
-                  <small class="text-light">January 14, 2024</small>
-                </div>
-              </a>
-            </li>
-
-                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-light">
-                    Riwayat Donasi
-                    <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+              <div class="col p-4 d-flex flex-column position-static">
+                  <h3 class="mb-0">Riwayat Donasi</h3>
+                  <ul class="list-unstyled">
+              <li>
+                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top text-light" href="#">
+                  <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                  <div class="col-lg-8">
+                    <h6 class="mb-0">Example blog post title</h6>
+                    <small class="text-light">January 15, 2024</small>
+                  </div>
                 </a>
-            </div>
-        </div>
+              </li>
+              <li>
+                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top text-light" href="#">
+                  <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                  <div class="col-lg-8">
+                    <h6 class="mb-0">This is another blog post title</h6>
+                    <small class="text-light">January 14, 2024</small>
+                  </div>
+                </a>
+              </li>
+              <ul class="list-unstyled">
+              <li>
+                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top text-light" href="#">
+                  <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                  <div class="col-lg-8">
+                    <h6 class="mb-0">Example blog post title</h6>
+                    <small class="text-light">January 15, 2024</small>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top text-light" href="#">
+                  <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                  <div class="col-lg-8">
+                    <h6 class="mb-0">This is another blog post title</h6>
+                    <small class="text-light">January 14, 2024</small>
+                  </div>
+                </a>
+              </li>
+
+                  <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-light">
+                      Riwayat Donasi
+                      <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                  </a>
+              </div>
     </div>
+  </div>
 <!-- Royalti -->
     <div class="col-md-4">
       <div class="position-sticky" style="top: 2rem;">
