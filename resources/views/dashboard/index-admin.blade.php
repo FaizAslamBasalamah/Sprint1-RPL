@@ -91,7 +91,7 @@
               </li>
 
                   <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-light">
-                      Riwayat Donasi
+                      Artikel 
                       <svg class="bi"><use xlink:href="#chevron-right"/></svg>
                   </a>
               </div>
@@ -147,7 +147,7 @@
               </li>
 
                   <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-light">
-                      Riwayat Donasi
+                      Donasi
                       <svg class="bi"><use xlink:href="#chevron-right"/></svg>
                   </a>
               </div>
