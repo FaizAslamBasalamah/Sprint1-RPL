@@ -54,11 +54,17 @@
 
   <div class="row mb-2">
     <div class="col-md-6">
+        @if(session()->has('success'))
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                {{session('success')}}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        @endif
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative text-light" style="background-color: #395144;">
         <div class="col p-4 d-flex flex-column position-static">
           <h3 class="mb-0">Donasi Barang</h3>
           <p class="card-text mb-auto mt-2">Barang-barang yang Anda donasikan akan kirimkan kepada Panti-panti yang Membutuhkan.</p>
-          <a href="/donasi" class="icon-link gap-1 icon-link-hover stretched-link text-light">
+          <a href="/dashboard/detaildonasi" class="icon-link gap-1 icon-link-hover stretched-link text-light">
             Donasi Sekarang
             <svg class="bi"><use xlink:href="#chevron-right"/></svg>
           </a>
@@ -149,7 +155,7 @@
                 </a>
               </li>
 
-                  <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-light">
+                  <a href="/dashboard/riwayatdonasi" class="icon-link gap-1 icon-link-hover stretched-link text-light">
                       Riwayat Donasi
                       <svg class="bi"><use xlink:href="#chevron-right"/></svg>
                   </a>
