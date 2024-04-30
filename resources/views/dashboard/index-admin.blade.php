@@ -146,7 +146,7 @@
                 </a>
               </li>
 
-                  <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-light">
+                  <a href="/riwayat-donasi-admin" class="icon-link gap-1 icon-link-hover stretched-link text-light">
                       Donasi
                       <svg class="bi"><use xlink:href="#chevron-right"/></svg>
                   </a>

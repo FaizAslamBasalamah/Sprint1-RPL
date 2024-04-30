@@ -2,10 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\DonasiController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\DashboardDonasiController;
+use App\Http\Controllers\KonfirmasiController;
+use App\Http\Controllers\ConfirmationController;
 
+
+Route::get('/tambah-donasi', function () {
+    return view('donasi.tambah-donasi');
+});
 
 Route::get('/', function () {
     return view('landingpage');
@@ -28,7 +34,16 @@ Route::post('/logout', [LoginController::class, 'logout']);
 //Rute Dashboard
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 Route::get('/dashboardadmin', [DashboardController::class, 'admin'])->middleware('auth');
-//Rute Donasi
-Route::get('/dashboard/riwayatdonasi', [DashboardController::class, 'indexriwayatdonasi'])->middleware('auth');
-Route::get('/dashboard/detaildonasi', [DashboardDonasiController::class, 'indexdetaildonasi'])->middleware('auth');
-Route::post('/dashboard/detaildonasi', [DashboardDonasiController::class, 'store']);
+//Rute Donasi User
+Route::post('/tambah-donasi', [DonasiController::class, 'store']);
+Route::get('/riwayat-donasi', [DonasiController::class, 'showdonasi'])->middleware('auth');
+Route::get('/riwayat-donasi/delete/{id}', [DonasiController::class, 'deletedonasi'])->middleware('auth');
+//Route Donasi Admin
+Route::get('/riwayat-donasi-admin', [ConfirmationController::class, 'getdata'])->middleware('auth');
+//Route::get('/riwayat-donasi-admin/approve/{id}', [ConfirmationController::class, 'update'])->middleware('auth');
+//Route::get('/riwayat-donasi-admin/reject/{id}', [ConfirmationController::class, 'update'])->middleware('auth');
+Route::get('/riwayat-donasi-admin/delete/{id}', [ConfirmationController::class, 'getdata'])->middleware('auth');
+Route::resource('/riwayat-donasi-admin', KonfirmasiController::class)->middleware('auth');
+//Route::get('/confirmation-update/{id}', [ConfirmationController::class, 'confirmation'])->middleware('auth');
+//Route::get('/confirmation-update/{id}', [ConfirmationController::class, 'showdata'])->middleware('auth');
+//Route::put('/confirmation-update/{id}', [ConfirmationController::class, 'showdata'])->middleware('auth');

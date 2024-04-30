@@ -14,11 +14,10 @@
               <th scope="col">Kategori Barang</th>
               <th scope="col">Detail Barang</th>
               <th scope="col">Status Barang</th>
-              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>
-            @foreach ($donasis as $donasi)
+            @foreach ($donasi as $donasi)
             <tr>
               <td>{{ $donasi -> id}}</td>
               <td>{{ $donasi -> nama_barang}}</td>
@@ -33,12 +32,16 @@
                 <i class="fw-bolder text-secondary">PENDING</i>
               @endif
               </td>
-              <td><a href="{{ url('riwayat-donasi/delete/'.$donasi->id)}}" class="btn btn-danger">Delete</a></td>
+              <td>
+              <div class="btn-group">
+                <a href="{{ url('riwayat-donasi-admin/approve/'.$donasi->id)}}" class="btn btn-primary">APPROVE</a>
+                <a href="{{ url('riwayat-donasi-admin/reject/'.$donasi->id)}}" class="btn btn-warning">REJECT</a>
+                <a href="{{ url('riwayat-donasi-admin/delete/'.$donasi->id)}}" class="btn btn-danger">Delete</a>
+                <a href="{{ url('/riwayat-donasi-admin/change-status'.$donasi->id)}}" class="btn btn-primary">Change Status</a>
+              </div>
+              </td>
             </tr>
             @endforeach
           </tbody>
         </table>
-        @if(Session::has('deletedMessage'))
-          <div class="alert alert-danger alert-lg"> {{ Session::get('deletedMessage') }}</div>
-        @endif
       </div>
