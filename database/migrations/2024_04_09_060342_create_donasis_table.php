@@ -15,10 +15,11 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users');
-            $table->Integer('jumlah_donasi');
             $table->string('nama_barang');
             $table->string('kategori_barang');
             $table->string('detail_barang');
+            $table->string('foto_barang');
+            $table->string('status')->default('PENDING');
             $table->timestamps();
         });
     }

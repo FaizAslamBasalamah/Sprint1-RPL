@@ -64,7 +64,7 @@
         <div class="col p-4 d-flex flex-column position-static">
           <h3 class="mb-0">Donasi Barang</h3>
           <p class="card-text mb-auto mt-2">Barang-barang yang Anda donasikan akan kirimkan kepada Panti-panti yang Membutuhkan.</p>
-          <a href="/dashboard/detaildonasi" class="icon-link gap-1 icon-link-hover stretched-link text-light">
+          <a href="/tambah-donasi" class="icon-link gap-1 icon-link-hover stretched-link text-light">
             Donasi Sekarang
             <svg class="bi"><use xlink:href="#chevron-right"/></svg>
           </a>
@@ -155,7 +155,7 @@
                 </a>
               </li>
 
-                  <a href="/dashboard/riwayatdonasi" class="icon-link gap-1 icon-link-hover stretched-link text-light">
+                  <a href="/riwayat-donasi" class="icon-link gap-1 icon-link-hover stretched-link text-light">
                       Riwayat Donasi
                       <svg class="bi"><use xlink:href="#chevron-right"/></svg>
                   </a>
