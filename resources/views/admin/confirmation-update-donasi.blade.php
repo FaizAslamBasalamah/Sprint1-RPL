@@ -13,10 +13,10 @@
                 <div class="card">
                     <div class="card-header">Donasi
                         <div class="card-body">
-                            <h5 class="card-tittle">ID : {{$donasi->id }}</h5>
-                            <p class="card-text">Nama Barang : {{ optional ($donasi -> nama_barang)->nama_barang }}</p>
-                            <p class="card-text">Kategori Barang : {{ optional ($donasi -> kategori_barang)->kategori_barang }}</p>
-                            <p class="card-text">Detail Barang : {{optional ($donasi -> detail_barang)->detail_barang }}</p>
+                            <h5 class="card-tittle">ID : {{$donasi->id ?? "none"}}</h5>
+                            <p class="card-text">Nama Barang : {{ $donas->nama_barang ?? "none" }}</p>
+                            <p class="card-text">Kategori Barang : {{ $donasi ->kategori_barang ?? "none"}}</p>
+                            <p class="card-text">Detail Barang : {{ $donasi ->detail_barang ?? "none"}}</p>
                         </div>
                     </div>
                 </div>

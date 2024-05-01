@@ -6,6 +6,7 @@ use App\Http\Controllers\DonasiController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\KonfirmasiController;
+use App\Http\Controllers\ArtikelControllerAdmin;
 use App\Http\Controllers\ConfirmationController;
 
 
@@ -44,6 +45,10 @@ Route::get('/riwayat-donasi-admin', [ConfirmationController::class, 'getdata'])-
 //Route::get('/riwayat-donasi-admin/reject/{id}', [ConfirmationController::class, 'update'])->middleware('auth');
 Route::get('/riwayat-donasi-admin/delete/{id}', [ConfirmationController::class, 'getdata'])->middleware('auth');
 Route::resource('/riwayat-donasi-admin', KonfirmasiController::class)->middleware('auth');
+Route::put('/riwayat-donasi-admin', [KonfirmasiController::class, 'getdata'])->middleware('auth');
 //Route::get('/confirmation-update/{id}', [ConfirmationController::class, 'confirmation'])->middleware('auth');
 //Route::get('/confirmation-update/{id}', [ConfirmationController::class, 'showdata'])->middleware('auth');
 //Route::put('/confirmation-update/{id}', [ConfirmationController::class, 'showdata'])->middleware('auth');
+
+//Artikel
+Route::resource('/artikel-admin', ArtikelControllerAdmin::class)->middleware('auth');

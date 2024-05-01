@@ -34,9 +34,6 @@
               </td>
               <td>
               <div class="btn-group">
-                <a href="{{ url('riwayat-donasi-admin/approve/'.$donasi->id)}}" class="btn btn-primary">APPROVE</a>
-                <a href="{{ url('riwayat-donasi-admin/reject/'.$donasi->id)}}" class="btn btn-warning">REJECT</a>
-                <a href="{{ url('riwayat-donasi-admin/delete/'.$donasi->id)}}" class="btn btn-danger">Delete</a>
                 <a href="{{ url('/riwayat-donasi-admin/change-status'.$donasi->id)}}" class="btn btn-primary">Change Status</a>
               </div>
               </td>
