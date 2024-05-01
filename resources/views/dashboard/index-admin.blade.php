@@ -90,7 +90,7 @@
                 </a>
               </li>
 
-                  <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-light">
+                  <a href="/artikel-admin" class="icon-link gap-1 icon-link-hover stretched-link text-light">
                       Artikel 
                       <svg class="bi"><use xlink:href="#chevron-right"/></svg>
                   </a>
